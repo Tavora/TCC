@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Verdana', sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+}
+/*------------*/
+#container{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #15D7EC;
+}
+/*-----------*/
+#wrap{
+	position: absolute;
+	border: 1px solid;
+	width: 80%;
+	height: 10%;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 2px;
+	background-color: #219AA7;
+}
+	#wrap header{
+		position: relative;
+		margin-top: 2px;
+		margin-right: 2%;
+	}
+		#wrap header .logo{
+			float: left;
+			margin-right: 100px;
+			margin-left: 10px;
+		}
+		#wrap header .menu{
+			float: right;
+			width: 70%;
+			border: 1px solid;
+		}
+		#wrap header .menu .items{
+			float: left;
+			width: 70%;
+			/*border: 1px dashed;*/
+		}
+		#wrap header .menu .items ul{
+			margin-left: -40px;
+		}
+		#wrap header .menu .items ul li{
+			display: inline-block 
+		}
+		#wrap header .menu .items ul li a{
+			text-decoration: none;
+			text-align: center;
+		}
+/*--------*/
+		.botao{
+			background: #F9F9F9;
+     		border: 1px solid #CCCCCE;
+     		border-radius: 3px;
+     		color: #616165;
+     		display: block;
+     		font-family: "Trebuchet MS";
+     		font-size: 12px;
+     		font-weight: bold;
+     		text-align: center;
+     		text-decoration: none;
+     		text-transform: uppercase;
+     		padding: 5px 5px;
+     		position: relative;
+     		width: 80px;
+			}
+		.botao:before{
+		    content: "";
+     		bottom: 0;
+     		left: 0;
+     		right: 0;
+     		top: 0px;
+     		position: absolute;
+    		}
+ 
+    	.botao:after{
+     		border-radius: 2px;
+     		content: "";
+     		bottom: 15px;
+     		left: 0px;
+     		right: 0px;
+     		top: 0px;
+     		position: absolute;
+    	}
+ 		.botao:active{
+     		top: 4px;
+    	}
+    	.botao:active:before{
+     		border: none;
+     		box-shadow:none;
+    	}
+/*---------*/    	
+		#wrap header .menu .search{
+			float: right;
+			border: 1px solid;
+    		width: 20%;
+		}
+		#divbusca{
+    		border: solid 1px;
+    		width: 130px;
+    		height: 20px;
+		}
+		#txtbusca{
+    		float: left;
+    		background-color: transparent;
+    		padding-left: 5px;
+    		font-style: italic;
+    		font-size: 18px;
+    		border: none;
+    		height: 20px;
+    		width: 110px;
+}
+		#btnBusca{
+    		border: none;
+    		width: 20px;
+    		height: 30px;
+    		float: right;
+    		margin-top: -5px;
+}
+/* ----- */
+#content{
+	position: relative;
+	border: 1px solid;
+	margin-top: 8%;
+	width: 80%;
+	height: 70%;
+	margin-left: 150px;
+}
+/*--------*/
+#board{
+	position: relative;
+	border: 2px dashed green;
+	width: 300px;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+/*--------*/
+#wrapfooter{
+	position: relative;
+	border: 1px solid;
+	width: 80%;
+	height: 14%;
+	margin-top: 2px;
+	margin-left: 150px;
+}
+/*--------*/
